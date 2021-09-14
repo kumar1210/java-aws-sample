@@ -1,4 +1,4 @@
-package helloworld;
+package org.local.kumar;
 
 import java.io.BufferedReader;
 import java.io.IOException;
