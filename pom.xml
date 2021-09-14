@@ -9,6 +9,9 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <docker.name>kgaurav/java-aws-sample</docker.name>
+    	<!-- <docker.REGISTRY_USERNAME>kgaurav1210</docker.REGISTRY_USERNAME>
+    	<docker.REGISTRY_PASSWORD></docker.REGISTRY_PASSWORD> -->
     </properties>
 
     <dependencies>
