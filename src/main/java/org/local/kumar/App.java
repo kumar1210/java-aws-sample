@@ -47,9 +47,4 @@ public class App implements RequestHandler<APIGatewayProxyRequestEvent, APIGatew
         }
     }
     
-    private void userLogic () {
-    	
-    	//User-logic
-    	
-    }
 }
