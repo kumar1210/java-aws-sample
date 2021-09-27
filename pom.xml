@@ -2,14 +2,14 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.local.kumar</groupId>
-    <artifactId>java-aws-sample</artifactId>
+    <artifactId>java-aws-template</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
     <name>A sample Hello World created for SAM CLI.</name>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <docker.name>kgaurav/java-aws-sample</docker.name>
+        <docker.name>kgaurav/java-aws-template</docker.name>
     	<!-- <docker.REGISTRY_USERNAME>kgaurav1210</docker.REGISTRY_USERNAME>
     	<docker.REGISTRY_PASSWORD></docker.REGISTRY_PASSWORD> -->
     </properties>
@@ -34,6 +34,7 @@
     </dependencies>
 
     <build>
+    <finalName>java-aws-template</finalName>
       <plugins>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
